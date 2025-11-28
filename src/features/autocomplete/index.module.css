@@ -1,0 +1,20 @@
+.autocomplete_outer {
+    margin-bottom: 0.5rem;
+}
+.autocomplete_outer :global(.MuiInputBase-root) {
+    border: 1px solid #404040;
+    border-radius: 20px;
+    color: var(--text-color);
+}
+.autocomplete_outer fieldset {
+    border: none;
+    color: var(--text-color);
+}
+.autocomplete_outer button {
+    color: var(--text-color)
+}
+.autocomplete_outer input::placeholder {
+  color: #404040;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+}

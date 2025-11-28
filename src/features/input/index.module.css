@@ -1,0 +1,52 @@
+
+.input_boc {
+    background: transparent !important;
+}
+.input_boc :global(.MuiInputBase-root) {
+    border-radius: 20px;
+    color: var(--text-color);
+    padding:10px;
+}
+.input_boc :global(.MuiSelect-root){
+    border: none !important;
+    color: white;
+}
+.input_boc fieldset {
+    border: none;
+    color: var(--text-color);
+}
+.input_boc input {
+    color: var(--text-color);
+}
+.input_boc input:focus {
+    border-radius: 0px;
+}
+.input_boc input::placeholder, .input_boc textarea::placeholder {
+  color: rgba(69, 69, 69, 1);
+  opacity: 1.5 !important;
+  font-weight: 500 !important;
+  font-size: 14px;
+}
+
+.input_boc input:-webkit-autofill,
+.input_boc input:-webkit-autofill:hover,
+.input_boc input:-webkit-autofill:focus,
+.input_boc input:-webkit-autofill:active {
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-text-fill-color: var(--text-color) !important;
+  caret-color: #000;
+  transition: background-color 9999s ease-out 0s;
+}
+.input_container {
+    display: flex;
+}
+.input_boc :global(.Mui-disabled){
+  -webkit-text-fill-color: var(--text-color) !important;
+  opacity: 0.8 !important;
+}
+
+@media (max-width: 768px) {
+    /* .input_container {
+        display: block;
+    } */
+}

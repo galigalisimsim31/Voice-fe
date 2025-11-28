@@ -1,0 +1,22 @@
+/* The outer container for the Right Section */
+.right_section_outer {
+    width: 100%;
+    height: 100%;
+    /* Add your robot background image here */
+    background-image: url('../../assets/images/login_bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: flex-end; /* Aligns the text overlay to the bottom */
+}
+
+/* If you have text overlay (like "Track, Analyze...") */
+.right_section_text {
+    width: 100%;
+    padding: 40px;
+    color: white;
+    /* Add a gradient so text is readable over the image */
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}

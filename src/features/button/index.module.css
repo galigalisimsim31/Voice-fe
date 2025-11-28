@@ -1,0 +1,27 @@
+.mui_custom_btn {
+    padding: 6px 30px !important;
+    font-size: 13px !important;
+}
+
+.iconOnlyBtn {
+  /* shrink button when it's just an icon */
+  padding-left: 8px;
+  padding-right: 8px;
+
+  /* remove default gap MUI puts between startIcon and label */
+  /* MUI uses .MuiButton-startIcon with margin-right, we kill that margin if no label */
+}
+.iconOnlyBtn :global(.MuiButton-startIcon) {
+  margin-right: 0;
+}
+.iconOnlyBtn :global(.MuiButton-endIcon) {
+  margin-left: 0;
+}
+
+/* optional: make it more square */
+.iconOnlyBtn {
+  min-width: 32px; /* or 0 if you want fully shrink */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

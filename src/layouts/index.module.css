@@ -1,0 +1,41 @@
+.creditInfoColumn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--top-wallet-bg);
+  padding-left: 10px;
+  border-radius: 20px;
+  height: 28px;
+  margin: auto;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.creditInfoColumnMobile {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--top-wallet-bg);
+  padding-left: 10px;
+  padding-right: 15px;
+  border-radius: 20px 0 0 20px;
+  height: 28px;
+  margin: auto;
+  margin-right: -10px;
+  cursor: pointer;
+}
+
+.creditAmount {
+  color: var(--text-color) !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+.buyCreditsButton {
+  font-size: 12px !important;
+  padding: 2px 8px !important;
+  height: 100% !important;
+}
+.menuLabelText :global(span) {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}

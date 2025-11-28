@@ -1,0 +1,34 @@
+
+.otpInput {
+    background: transparent !important;
+}
+.otpInput :global(.MuiInputBase-root) {
+    border: 1px solid #404040;
+    border-radius: 50%;
+    color: var(--text-color);
+}
+.otpInput fieldset {
+    border: none;
+    color: var(--text-color);
+}
+.otpInput input {
+    color: var(--text-color);
+}
+.otpInput input:focus {
+    border-radius: 20px;
+}
+.otpInput input::placeholder, .otpInput textarea::placeholder {
+  color: #404040;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+}
+
+.otpInput input:-webkit-autofill,
+.otpInput input:-webkit-autofill:hover,
+.otpInput input:-webkit-autofill:focus,
+.otpInput input:-webkit-autofill:active {
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-text-fill-color: var(--text-color) !important;
+  caret-color: #000;
+  transition: background-color 9999s ease-out 0s;
+}

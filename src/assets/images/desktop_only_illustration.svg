@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect x="12" y="12" width="176" height="176" rx="20" fill="#0F0F12" stroke="#2A1547" stroke-width="2"/>
+  <g stroke="#A537FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- monitor -->
+    <rect x="48" y="56" width="104" height="60" rx="6"/>
+    <rect x="58" y="66" width="30" height="8" rx="2"/>
+    <rect x="58" y="80" width="54" height="8" rx="2"/>
+    <rect x="58" y="94" width="40" height="8" rx="2"/>
+    <!-- stand -->
+    <path d="M100 116v16"/>
+    <path d="M76 140h48"/>
+    <!-- person (seated) -->
+    <circle cx="138" cy="92" r="10"/>
+    <path d="M132 104c8 2 16 2 24 0M138 102v22M150 104v18"/>
+    <path d="M126 128c8-6 28-6 36 0"/>
+  </g>
+</svg>

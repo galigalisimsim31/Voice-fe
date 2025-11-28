@@ -1,0 +1,99 @@
+.add_new_btn {
+    background-color: #A537FF !important;
+    color: white !important;
+    border-radius: 10px !important;
+    padding: 8px 15px !important;
+}
+.header_search {
+    margin-top: 7px !important;
+    border-radius: 10px;
+    background: none !important;
+}
+.header_search :global(.MuiOutlinedInput-root) {
+  border-radius: 10px;
+  color: var(--text-color) !important;
+}
+.header_search input::placeholder {
+  color: var(--text-color);
+  opacity: 0.5 !important;
+}
+.header_assets {
+  display: flex;
+}
+
+.assetStatus {
+  padding: 2px 10px !important;
+  border-radius: 16px !important;
+  color: #fff !important;
+  width: fit-content !important;
+  margin : 0 auto !important;
+}
+
+.statusText {
+  font-size: 10px !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  color: var(--text-color)white !important;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  min-width: max-content;
+}
+
+/* Status Types */
+.completed {
+  background-color: #08813B;
+}
+
+.ended-up, .killed {
+  background-color: #FF4756;
+}
+
+.scheduled {
+  background-color: #8E7404;
+}
+
+.disabled, .cancelled {
+  background-color: black;
+}
+
+.running {
+  background-color: #000088;
+}
+
+.page_header_outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+}
+.mobile_add_btn {
+  width: auto !important;
+  min-width: fit-content !important;
+}
+
+.fullGroupBtn {
+  width: 100% !important;
+}
+.fullWidthSearch{
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .page_header_outer {
+    display: block;
+  }
+  .header_assets button {
+    width: 50%;
+  }
+  .header_assets {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899.98px) {
+  /* tablet styles */
+  
+}

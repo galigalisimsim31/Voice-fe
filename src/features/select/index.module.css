@@ -1,0 +1,9 @@
+.select_outer  :global(.MuiInputBase-root) {
+    border: 1px solid #404040;
+    border-radius: 20px;
+    color: var(--text-color);
+}
+.select_outer fieldset {
+    border: none;
+    color: var(--text-color);
+}

@@ -1,0 +1,42 @@
+.logo {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 160px;
+}
+.login_label {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+}
+.login_description {
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 16px;
+    display: block;
+}
+.left_section_outer {
+    position: absolute !important;
+    left: 10% !important;
+    bottom: 10% !important;
+    color: white;
+    font-weight: bold;
+}
+.left_section_outer div {
+    display: flex;
+    gap: 15px;
+}
+.left_section_outer img {
+    padding: 8px 10px 8px 0;
+    background: white;
+    border-radius: 0 50% 50% 0;
+    width: 40px;
+}
+.left_section_outer .logo_title {
+    font-size: 20px;
+    line-height: 0.9;
+    letter-spacing: 1px;
+    font-weight: 700;
+}

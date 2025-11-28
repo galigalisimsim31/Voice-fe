@@ -1,0 +1,180 @@
+.table_container {
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.table_header {
+  background: var(--table-header-bg) !important;
+}
+.table_header th {
+    background-color: transparent !important;
+    padding: 10px;
+    border-bottom: 0;
+}
+
+.headerCell {
+  color: var(--text-color) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: 'Inter', sans-serif !important;
+}
+.cellCenter {
+    text-align: center !important;
+}
+
+.assetCell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.assetIcon {
+  width: 45px;
+  height: 45px;
+  background-color: var(--assets-icon-bg);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+.assetId {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: var(--text-color) !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.assetOrgRow {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-top: 2px !important;
+}
+
+.assetOrg {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: var(--text-color) !important;
+  font-family: 'Inter', sans-serif !important;
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+.assetStatus {
+  padding: 2px 4px !important;
+  border-radius: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  color: #fff !important;
+}
+
+.statusText {
+  font-size: 10px !important;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  color: var(--text-color)white !important;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  min-width: max-content;
+}
+.table_row td {
+    border: 0;
+}
+
+/* Status Types */
+.verified {
+  background-color: #08813B;
+}
+
+.expired {
+  background-color: #FF4756;
+}
+
+.pending {
+  background-color: #8E7404;
+}
+
+.disabled {
+  background-color: black;
+}
+
+.assetIp {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  color: var(--text-color) !important;
+  margin-top: 2px !important;
+  font-family: 'Inter', sans-serif;
+}
+
+.dateText {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  color: var(--text-color) !important;
+  text-align: center !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.expiryText {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: var(--text-color);
+  text-align: center !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.expiryDate {
+  font-size: 10px !important;
+  font-style: italic !important;
+  font-weight: 300 !important;
+  color: var(--text-color) !important;
+  text-align: center !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.actionsBox {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  justify-content: center !important;
+}
+
+.actionBtn {
+  padding: 8px 12px !important;
+  border-radius: 12px !important;
+  font-size: 12px !important;
+  color: var(--text-color) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer !important;
+}
+.actionBtn_pending {
+  background: linear-gradient(0deg, rgba(8, 129, 59, 0.2) 0%, rgba(8, 129, 59, 0.2) 100%);
+  border: 1px solid #08813B;
+}
+.actionBtn_verified {
+  background: linear-gradient(0deg, rgba(0, 148.75, 255, 0.20) 0%, rgba(0, 148.75, 255, 0.20) 100%);
+  border: 1px solid #0095FF;
+}
+.actionBtn_expired {
+  background: linear-gradient(0deg, rgba(141.97, 116.46, 4.10, 0.20) 0%, rgba(141.97, 116.46, 4.10, 0.20) 100%);
+  border: 1px solid #8E7404;
+}
+
+.actionBtnIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 12px;
+  background: linear-gradient(0deg, rgba(8, 129, 59, 0.2) 0%, rgba(8, 129, 59, 0.2) 100%);
+  border: 1px solid #08813B;
+}
+
+/* Additional variants can be created similarly:
+   .blueAction, .yellowAction, etc. */

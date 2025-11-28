@@ -1,0 +1,25 @@
+.login_btn {
+    /* float: right; */
+    margin-top: 2rem !important;
+}
+.login_input {
+    background: none !important;
+}
+
+
+.login_input :global(.MuiInputBase-root) {
+background-color: #1A253766 !important;
+border: none !important;
+border-radius: 3px !important;
+color: var(--text-color) !important;
+}
+.login_input fieldset {
+    border: none !important;
+    color: var(--text-color) !important;
+}
+.login_input input {
+    color: var(--text-color) !important;
+}
+.login_input input:focus {
+    border-radius: 0px !important;
+}
